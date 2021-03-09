@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50882" started-at="2021-03-09T02:47:19 IST" finished-at="2021-03-09T02:48:10 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50882" started-at="2021-03-09T02:47:19 IST" finished-at="2021-03-09T02:48:10 IST">
+      <class name="test.dockerTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.dockerTest@1a9ad43]" name="beforeTest" is-config="true" duration-ms="31546" started-at="2021-03-09T02:47:19 IST" finished-at="2021-03-09T02:47:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testLandingPage()[pri:0, instance:test.dockerTest@1a9ad43]" name="testLandingPage" duration-ms="294" started-at="2021-03-09T02:47:50 IST" description="Verify Landing Page" finished-at="2021-03-09T02:47:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLandingPage -->
+        <test-method status="PASS" signature="verifyImageFilter()[pri:0, instance:test.dockerTest@1a9ad43]" name="verifyImageFilter" duration-ms="152" started-at="2021-03-09T02:47:51 IST" description="Verify Image Filter" depends-on-methods="test.dockerTest.testLandingPage" finished-at="2021-03-09T02:47:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImageFilter -->
+        <test-method status="PASS" signature="verifyCategoryFilter()[pri:0, instance:test.dockerTest@1a9ad43]" name="verifyCategoryFilter" duration-ms="830" started-at="2021-03-09T02:47:51 IST" description="Verify Category Filter" depends-on-methods="test.dockerTest.verifyImageFilter" finished-at="2021-03-09T02:47:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryFilter -->
+        <test-method status="PASS" signature="verifyAppliedFilter()[pri:0, instance:test.dockerTest@1a9ad43]" name="verifyAppliedFilter" duration-ms="3751" started-at="2021-03-09T02:47:52 IST" description="Verify applied Filter" depends-on-methods="test.dockerTest.verifyCategoryFilter" finished-at="2021-03-09T02:47:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppliedFilter -->
+        <test-method status="PASS" signature="verifyAdditionalFilter()[pri:0, instance:test.dockerTest@1a9ad43]" name="verifyAdditionalFilter" duration-ms="6014" started-at="2021-03-09T02:47:56 IST" description="Verify additional Filter" depends-on-methods="test.dockerTest.verifyAppliedFilter" finished-at="2021-03-09T02:48:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdditionalFilter -->
+        <test-method status="PASS" signature="verifyClosedFilter()[pri:0, instance:test.dockerTest@1a9ad43]" name="verifyClosedFilter" duration-ms="3203" started-at="2021-03-09T02:48:02 IST" description="Verify additional Filter" depends-on-methods="test.dockerTest.verifyAdditionalFilter" finished-at="2021-03-09T02:48:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClosedFilter -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.dockerTest@1a9ad43]" name="afterTest" is-config="true" duration-ms="4541" started-at="2021-03-09T02:48:05 IST" finished-at="2021-03-09T02:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.dockerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
